@@ -32,7 +32,7 @@ namespace InterfazdeUsuario.Formularios
         private void iconButton3_Click(object sender, EventArgs e)
         {
             string name = tbNombre.Text;
-            string email = tbEmail.Text;
+            string email = tbPassword.Text;
             string cif = tbCif.Text;
 
             //Validacion
@@ -62,7 +62,7 @@ namespace InterfazdeUsuario.Formularios
 
                 // Limpiar campos después del registro
                 tbNombre.Clear();
-                tbEmail.Clear();
+                tbPassword.Clear();
                 tbCif.Clear();
             }
             catch (Exception ex)

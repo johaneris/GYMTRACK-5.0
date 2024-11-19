@@ -104,7 +104,7 @@ namespace InterfazdeUsuario
         {
             btnAbout.BackColor = Color.FromArgb(18, 27, 31);
         }
-
+        F
         private void btnAdministrador_Click(object sender, EventArgs e)
         {
             FrmLogin admin = new FrmLogin();
@@ -115,7 +115,8 @@ namespace InterfazdeUsuario
 
         private void btnMiembros_Click(object sender, EventArgs e)
         {
-            
+            FrmLoginUser registro = new FrmLoginUser();
+            registro.ShowDialog();
         }
     }
 }
